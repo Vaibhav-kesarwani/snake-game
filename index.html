@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Snake Game</title>
 
+    <!-- add the font style link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- add the custom link -->
     <link rel="stylesheet" href="./style.css" />
     <script src="./app.js" defer></script>
   </head>
@@ -14,15 +23,15 @@
         <h1 id="score">000</h1>
         <h1 id="highScore">000</h1>
       </div>
-      <div class="gameBorder1">
-        <div class="gameBorder2">
-          <div class="gameBorder3">
+      <div class="gameBoard1">
+        <div class="gameBoard2">
+          <div class="gameBoard3">
             <div id="gameBoard"></div>
           </div>
         </div>
       </div>
     </div>
     <h1 id="intructionText">Press spacebar to start the game</h1>
-    <img src="./snake-game-ai-gen.png" alt="snake logo">
+    <img src="./snake-game-ai-gen.png" alt="snake logo" id="logo" />
   </body>
 </html>
